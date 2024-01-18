@@ -13,6 +13,7 @@ import { getSession } from "auth-astro/server"
 
 const session = await getSession(Astro.request)
 
+
 const bkg = session ? "vote-system-bkg.webp" : "vota-bkg.webp"
 ---
 
